@@ -13,6 +13,8 @@
 #include <sstream>
 #include <iterator>
 #include <string>
+#include <cstring>
+#include <algorithm>
 #include <map>
 using namespace std;
 

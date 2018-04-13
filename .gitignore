@@ -12,6 +12,8 @@
 *.a
 *.scan
 *.log
+matrix-subregions
+*.d
 #*.docx
 *.status
 #*.png
