@@ -21,6 +21,12 @@ A list of (X,Y) value pairs that identify the center of mass of each region of i
 the average position, expressed in X,Y coordinates, of the cells in that sub-region, each cell's location
 being weighted by that cell's signal value.
 
+### Compiled in GCC compilers on:
+```
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+Apple LLVM version 8.1.0 (clang-802.0.42)
+```
+
 ### How to compile:
 ```
 cd matrix-subregions/Debug
