@@ -1,0 +1,17 @@
+#feel free to modify
+#Makefile
+*.in
+*.DS_Store
+*.o
+*.cproject
+*.project
+*.settings
+*.autotools
+*.cache
+*.deps
+*.a
+*.scan
+*.log
+#*.docx
+*.status
+#*.png
