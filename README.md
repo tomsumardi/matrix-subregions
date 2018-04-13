@@ -8,6 +8,8 @@ consider the 6 x 6 array shown in the following diagram. If we have threshold va
 • Middle "W-shaped" sub-region: { (3,3), (3,2), (4,2), (4,1), (5,1) }
 • Upper-right sub-region: { (5,4), (5,5) }
 
+![](https://github.com/tomsumardi/matrix-subregions/blob/master/matrix.png)
+
 
 ### Problems
 If any necessary details are omitted from the problem descriptions below, you should define whatever additional information is needed. Please document these additions, along with any significant assumptions you make.
@@ -19,5 +21,3 @@ If any necessary details are omitted from the problem descriptions below, you sh
 (There will be one X,Y coordinate pair for each sub-region.) Define "center of mass" for a given sub-region to be
 the average position, expressed in X,Y coordinates, of the cells in that sub-region, each cell's location
 being weighted by that cell's signal value.
-Feel free to express your response as compilable code. (If you do, please include any make or project files.)
-2. Discuss a preferred strategy for testing the function you defined in part 1, including how you might automate the testing, how you would select test input cases (feel free to enumerate cases), and how you would determine whether each test case results in a pass or fail.
