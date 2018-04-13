@@ -15,11 +15,11 @@ consider the 6 x 6 array shown in the following diagram. If we have threshold va
 If any necessary details are omitted from the problem descriptions below, you should define whatever additional information is needed. Please document these additions, along with any significant assumptions you make.
 Write down a function, expressed either in C# or C++, that takes two inputs below.
 
-### Inputs:
+##### Inputs:
 - a two-dimensional array of values
 - a threshold T
 
-#### Output: 
+##### Output: 
 A list of (X,Y) value pairs that identify the center of mass of each region of interest.
 (There will be one X,Y coordinate pair for each sub-region.) Define "center of mass" for a given sub-region to be
 the average position, expressed in X,Y coordinates, of the cells in that sub-region, each cell's location
