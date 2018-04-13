@@ -3,9 +3,9 @@
 *.in
 *.DS_Store
 *.o
-*.cproject
-*.project
-*.settings
+.cproject
+.project
+.settings
 *.autotools
 *.cache
 *.deps
