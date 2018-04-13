@@ -20,3 +20,20 @@ A list of (X,Y) value pairs that identify the center of mass of each region of i
 (There will be one X,Y coordinate pair for each sub-region.) Define "center of mass" for a given sub-region to be
 the average position, expressed in X,Y coordinates, of the cells in that sub-region, each cell's location
 being weighted by that cell's signal value.
+
+### how to compile and execute:
+cd matrix-subregions/Debug
+make clean
+make all
+
+./matrix-subregions
+Usage is -a <x,y array list> -t <threshold>
+example -a "{{0,80,45,95,170,145}:{115,210,60,5,230,220}:{5,0,145,250,245,140}:{15,5,175,250,185,160}:{0,5,95,115,165,250}:{5,0,25,5,145,250}" -t 200
+
+sample test cases:
+./matrix-subregions -a "{0,80,45,95,170,145}:{115,210,60,5,230,220}:{5,0,145,250,245,140}:{15,5,175,250,185,160}:{0,5,95,115,165,250}:{5,0,25,5,145,250}"   -t 200
+./matrix-subregions -a "{210,250,25,5,60,80}:{0,80,45,95,170,145}:{115,210,60,5,230,220}:{5,0,145,250,245,140}:{15,5,175,250,185,160}:{0,5,95,115,165,250}:{5,0,25,5,145,250}"   -t 200
+./matrix-subregions -a "{0,5,95,115}:{5,0,25,210}" -t 200
+./matrix-subregions -a "{0,5,95,115}:{5,0,25,21}"  -t 500
+./matrix-subregions -a "{10,5,95,115}:{5,20,25,50}" -t 4
+
